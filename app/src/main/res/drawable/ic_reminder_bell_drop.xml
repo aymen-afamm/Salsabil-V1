@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Bell outline -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M12,2C7,2 3,6 3,11H3V13H4V17H20V13H21V11C21,6 17,2 12,2Z"
+        android:strokeColor="?attr/colorOnPrimary"
+        android:strokeWidth="0.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Clapper -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M11,18H13V20H11V18Z" />
+    <!-- Water drop on bell -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M16,7C16,7 14,10 14,12C14,13.1 14.9,14 16,14C17.1,14 18,13.1 18,12C18,10 16,7 16,7Z" />
+</vector>
+

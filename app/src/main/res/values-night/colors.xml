@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom Navigation Colors (Dark Theme) -->
+    <color name="bottom_nav_color">@color/md_theme_dark_onSurfaceVariant</color>
+</resources>
+

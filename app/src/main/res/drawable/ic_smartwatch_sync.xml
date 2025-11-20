@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Smartwatch outline -->
+    <rect
+        android:x="6"
+        android:y="4"
+        android:width="12"
+        android:height="16"
+        android:rx="2"
+        android:ry="2"
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:strokeColor="?attr/colorOnSurfaceVariant"
+        android:strokeWidth="0.5" />
+    <!-- Screen -->
+    <rect
+        android:x="8"
+        android:y="6"
+        android:width="8"
+        android:height="12"
+        android:rx="1"
+        android:ry="1"
+        android:fillColor="?attr/colorSurface" />
+    <!-- Water drop with sync arrows -->
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M11.5,8C11.5,8 10.5,9.5 10.5,10.5C10.5,11.3 11,12 11.5,12C12,12 12.5,11.3 12.5,10.5C12.5,9.5 11.5,8 11.5,8Z" />
+    <!-- Sync arrows -->
+    <path
+        android:strokeColor="?attr/colorPrimary"
+        android:strokeWidth="0.75"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 8.5,14 L 9,15 L 8,15.5" />
+    <path
+        android:strokeColor="?attr/colorPrimary"
+        android:strokeWidth="0.75"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 14.5,14 L 14,15 L 15,15.5" />
+</vector>
+
