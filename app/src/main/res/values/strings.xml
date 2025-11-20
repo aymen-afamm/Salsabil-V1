@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Salsabil</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Hydration Tracker</string>
+    <string name="home_daily_goal">Daily Goal</string>
+    <string name="home_current_intake">Current Intake</string>
+    <string name="home_remaining">Remaining</string>
+    <string name="home_add_water">Add Water</string>
+    <string name="home_quick_add">Quick Add</string>
+    <string name="home_custom_amount">Custom Amount</string>
+    <string name="home_ml">ml</string>
+    <string name="home_liters">L</string>
+
+    <!-- Hydration Status -->
+    <string name="status_excellent">Excellent! 🎉</string>
+    <string name="status_good">Good Progress 👍</string>
+    <string name="status_fair">Keep Going 💪</string>
+    <string name="status_behind">Behind Schedule ⚠️</string>
+    <string name="status_critical">Need Water Now! 🚨</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_title">Analytics</string>
+    <string name="analytics_weekly">Weekly</string>
+    <string name="analytics_monthly">Monthly</string>
+    <string name="analytics_total_intake">Total Intake</string>
+    <string name="analytics_avg_daily">Avg Daily</string>
+    <string name="analytics_best_day">Best Day</string>
+    <string name="analytics_steps">Steps</string>
+    <string name="analytics_distance">Distance</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_age">Age</string>
+    <string name="profile_sex">Sex</string>
+    <string name="profile_height">Height (cm)</string>
+    <string name="profile_weight">Weight (kg)</string>
+    <string name="profile_kidney_condition">Kidney Condition</string>
+    <string name="profile_save">Save Profile</string>
+    <string name="profile_male">Male</string>
+    <string name="profile_female">Female</string>
+    <string name="profile_other">Other</string>
+
+    <!-- Smartwatch Screen -->
+    <string name="smartwatch_title">Smartwatch</string>
+    <string name="smartwatch_scan">Scan for Devices</string>
+    <string name="smartwatch_connect">Connect</string>
+    <string name="smartwatch_disconnect">Disconnect</string>
+    <string name="smartwatch_connected">Connected</string>
+    <string name="smartwatch_disconnected">Disconnected</string>
+    <string name="smartwatch_scanning">Scanning…</string>
+    <string name="smartwatch_steps">Steps</string>
+    <string name="smartwatch_heart_rate">Heart Rate</string>
+    <string name="smartwatch_battery">Battery</string>
+    <string name="smartwatch_sync">Sync Now</string>
+    <string name="smartwatch_uuid_scanner">UUID Scanner</string>
+    <string name="smartwatch_configure">Configure UUIDs</string>
+
+    <!-- Proximity/Kidney Support Mode -->
+    <string name="proximity_title">Kidney Support Mode</string>
+    <string name="proximity_enable">Enable Support Mode</string>
+    <string name="proximity_disable">Disable Support Mode</string>
+    <string name="proximity_description">Detect nearby Salsabil users who may need assistance</string>
+    <string name="proximity_nearby_users">Nearby Users</string>
+    <string name="proximity_no_users">No nearby users detected</string>
+    <string name="proximity_send_message">Send Wellness Message</string>
+    <string name="proximity_privacy">Your privacy is protected with rotating anonymous IDs</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_reminder_interval">Reminder Interval</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_data">Data &amp; Privacy</string>
+    <string name="settings_export_ledger">Export Ledger</string>
+    <string name="settings_verify_ledger">Verify Ledger Integrity</string>
+    <string name="settings_about">About</string>
+
+    <!-- Theme Options -->
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+
+    <!-- Notifications -->
+    <string name="notif_hydration_title">Time to Hydrate! 💧</string>
+    <string name="notif_hydration_message">Don\'t forget to drink water</string>
+    <string name="notif_activity_title">Great Activity! 🚶</string>
+    <string name="notif_activity_message">You walked %1$s km - time to hydrate!</string>
+    <string name="notif_proximity_title">Nearby Salsabil User</string>
+    <string name="notif_proximity_message">A fellow user is nearby. Do you need help?</string>
+    <string name="notif_smartwatch_title">Smartwatch Synced</string>
+    <string name="notif_smartwatch_message">Data synced successfully</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth_title">Bluetooth Permission</string>
+    <string name="permission_bluetooth_message">Required for smartwatch connection and proximity detection</string>
+    <string name="permission_location_title">Location Permission</string>
+    <string name="permission_location_message">Required for GPS tracking and activity monitoring</string>
+    <string name="permission_activity_title">Activity Recognition</string>
+    <string name="permission_activity_message">Required to track your steps and movement</string>
+    <string name="permission_notification_title">Notification Permission</string>
+    <string name="permission_notification_message">Required for hydration reminders</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_bluetooth_disabled">Bluetooth is disabled</string>
+    <string name="error_location_disabled">Location is disabled</string>
+    <string name="error_no_device">No device found</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_save_failed">Failed to save</string>
+
+    <!-- Success Messages -->
+    <string name="success_saved">Saved successfully</string>
+    <string name="success_connected">Connected successfully</string>
+    <string name="success_synced">Synced successfully</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="dialog_save">Save</string>
+
+    <!-- Empty States -->
+    <string name="empty_no_data">No data available</string>
+    <string name="empty_no_logs">No hydration logs yet</string>
+    <string name="empty_start_tracking">Start tracking your hydration!</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_add_water">Add water intake</string>
+    <string name="cd_profile_avatar">Profile avatar</string>
+    <string name="cd_chart">Hydration chart</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_menu">Menu</string>
+</resources>

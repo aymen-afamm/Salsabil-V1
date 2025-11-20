@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.salsabilapp.presentation.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/analyticsFragment"
+        android:name="com.example.salsabilapp.presentation.analytics.AnalyticsFragment"
+        android:label="@string/nav_analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.salsabilapp.presentation.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.salsabilapp.presentation.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/smartwatchFragment"
+        android:name="com.example.salsabilapp.presentation.smartwatch.SmartwatchFragment"
+        android:label="@string/smartwatch_title"
+        tools:layout="@layout/fragment_smartwatch" />
+
+    <fragment
+        android:id="@+id/proximityFragment"
+        android:name="com.example.salsabilapp.presentation.proximity.ProximityFragment"
+        android:label="@string/proximity_title"
+        tools:layout="@layout/fragment_proximity" />
+
+</navigation>

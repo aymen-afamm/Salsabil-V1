@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salsabil</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_analytics">Analytique</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_settings">Paramètres</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Suivi d\'Hydratation</string>
+    <string name="home_daily_goal">Objectif Quotidien</string>
+    <string name="home_current_intake">Consommation Actuelle</string>
+    <string name="home_remaining">Restant</string>
+    <string name="home_add_water">Ajouter de l\'Eau</string>
+    <string name="home_quick_add">Ajout Rapide</string>
+    <string name="home_custom_amount">Quantité Personnalisée</string>
+    <string name="home_ml">ml</string>
+    <string name="home_liters">L</string>
+
+    <!-- Hydration Status -->
+    <string name="status_excellent">Excellent! 🎉</string>
+    <string name="status_good">Bon Progrès 👍</string>
+    <string name="status_fair">Continuez 💪</string>
+    <string name="status_behind">En Retard ⚠️</string>
+    <string name="status_critical">Besoin d\'Eau Maintenant! 🚨</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_title">Analytique</string>
+    <string name="analytics_weekly">Hebdomadaire</string>
+    <string name="analytics_monthly">Mensuel</string>
+    <string name="analytics_total_intake">Consommation Totale</string>
+    <string name="analytics_avg_daily">Moyenne Quotidienne</string>
+    <string name="analytics_best_day">Meilleur Jour</string>
+    <string name="analytics_steps">Pas</string>
+    <string name="analytics_distance">Distance</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_name">Nom</string>
+    <string name="profile_age">Âge</string>
+    <string name="profile_sex">Sexe</string>
+    <string name="profile_height">Taille (cm)</string>
+    <string name="profile_weight">Poids (kg)</string>
+    <string name="profile_kidney_condition">Condition Rénale</string>
+    <string name="profile_save">Enregistrer le Profil</string>
+    <string name="profile_male">Homme</string>
+    <string name="profile_female">Femme</string>
+    <string name="profile_other">Autre</string>
+
+    <!-- Smartwatch Screen -->
+    <string name="smartwatch_title">Montre Connectée</string>
+    <string name="smartwatch_scan">Rechercher des Appareils</string>
+    <string name="smartwatch_connect">Connecter</string>
+    <string name="smartwatch_disconnect">Déconnecter</string>
+    <string name="smartwatch_connected">Connecté</string>
+    <string name="smartwatch_disconnected">Déconnecté</string>
+    <string name="smartwatch_scanning">Recherche…</string>
+    <string name="smartwatch_steps">Pas</string>
+    <string name="smartwatch_heart_rate">Fréquence Cardiaque</string>
+    <string name="smartwatch_battery">Batterie</string>
+    <string name="smartwatch_sync">Synchroniser</string>
+    <string name="smartwatch_uuid_scanner">Scanner UUID</string>
+    <string name="smartwatch_configure">Configurer les UUID</string>
+
+    <!-- Proximity/Kidney Support Mode -->
+    <string name="proximity_title">Mode Support Rénal</string>
+    <string name="proximity_enable">Activer le Mode Support</string>
+    <string name="proximity_disable">Désactiver le Mode Support</string>
+    <string name="proximity_description">Détecter les utilisateurs Salsabil à proximité qui peuvent avoir besoin d\'aide</string>
+    <string name="proximity_nearby_users">Utilisateurs à Proximité</string>
+    <string name="proximity_no_users">Aucun utilisateur détecté à proximité</string>
+    <string name="proximity_send_message">Envoyer un Message de Bien-être</string>
+    <string name="proximity_privacy">Votre vie privée est protégée avec des ID anonymes rotatifs</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_reminder_interval">Intervalle de Rappel</string>
+    <string name="settings_theme">Thème</string>
+    <string name="settings_language">Langue</string>
+    <string name="settings_units">Unités</string>
+    <string name="settings_data">Données et Confidentialité</string>
+    <string name="settings_export_ledger">Exporter le Registre</string>
+    <string name="settings_verify_ledger">Vérifier l\'Intégrité du Registre</string>
+    <string name="settings_about">À Propos</string>
+
+    <!-- Theme Options -->
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_system">Par Défaut du Système</string>
+
+    <!-- Notifications -->
+    <string name="notif_hydration_title">Il est temps de s\'hydrater! 💧</string>
+    <string name="notif_hydration_message">N\'oubliez pas de boire de l\'eau</string>
+    <string name="notif_activity_title">Belle Activité! 🚶</string>
+    <string name="notif_activity_message">Vous avez marché %1$s km - il est temps de s\'hydrater!</string>
+    <string name="notif_proximity_title">Utilisateur Salsabil à Proximité</string>
+    <string name="notif_proximity_message">Un autre utilisateur est à proximité. Avez-vous besoin d\'aide?</string>
+    <string name="notif_smartwatch_title">Montre Synchronisée</string>
+    <string name="notif_smartwatch_message">Données synchronisées avec succès</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Quelque chose s\'est mal passé</string>
+    <string name="error_bluetooth_disabled">Bluetooth est désactivé</string>
+    <string name="error_location_disabled">La localisation est désactivée</string>
+    <string name="error_no_device">Aucun appareil trouvé</string>
+    <string name="error_connection_failed">Échec de la connexion</string>
+    <string name="error_save_failed">Échec de l\'enregistrement</string>
+
+    <!-- Success Messages -->
+    <string name="success_saved">Enregistré avec succès</string>
+    <string name="success_connected">Connecté avec succès</string>
+    <string name="success_synced">Synchronisé avec succès</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">Confirmer</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_delete">Supprimer</string>
+    <string name="dialog_save">Enregistrer</string>
+
+    <!-- Empty States -->
+    <string name="empty_no_data">Aucune donnée disponible</string>
+    <string name="empty_no_logs">Aucun journal d\'hydratation pour le moment</string>
+    <string name="empty_start_tracking">Commencez à suivre votre hydratation!</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_add_water">Ajouter la consommation d\'eau</string>
+    <string name="cd_profile_avatar">Avatar de profil</string>
+    <string name="cd_chart">Graphique d\'hydratation</string>
+    <string name="cd_back">Retour</string>
+    <string name="cd_menu">Menu</string>
+</resources>

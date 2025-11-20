@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سلسبيل</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_analytics">التحليلات</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">متتبع الترطيب</string>
+    <string name="home_daily_goal">الهدف اليومي</string>
+    <string name="home_current_intake">الاستهلاك الحالي</string>
+    <string name="home_remaining">المتبقي</string>
+    <string name="home_add_water">إضافة ماء</string>
+    <string name="home_quick_add">إضافة سريعة</string>
+    <string name="home_custom_amount">كمية مخصصة</string>
+    <string name="home_ml">مل</string>
+    <string name="home_liters">لتر</string>
+
+    <!-- Hydration Status -->
+    <string name="status_excellent">ممتاز! 🎉</string>
+    <string name="status_good">تقدم جيد 👍</string>
+    <string name="status_fair">استمر 💪</string>
+    <string name="status_behind">متأخر عن الجدول ⚠️</string>
+    <string name="status_critical">تحتاج ماء الآن! 🚨</string>
+
+    <!-- Analytics Screen -->
+    <string name="analytics_title">التحليلات</string>
+    <string name="analytics_weekly">أسبوعي</string>
+    <string name="analytics_monthly">شهري</string>
+    <string name="analytics_total_intake">إجمالي الاستهلاك</string>
+    <string name="analytics_avg_daily">المتوسط اليومي</string>
+    <string name="analytics_best_day">أفضل يوم</string>
+    <string name="analytics_steps">الخطوات</string>
+    <string name="analytics_distance">المسافة</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="profile_name">الاسم</string>
+    <string name="profile_age">العمر</string>
+    <string name="profile_sex">الجنس</string>
+    <string name="profile_height">الطول (سم)</string>
+    <string name="profile_weight">الوزن (كجم)</string>
+    <string name="profile_kidney_condition">حالة الكلى</string>
+    <string name="profile_save">حفظ الملف الشخصي</string>
+    <string name="profile_male">ذكر</string>
+    <string name="profile_female">أنثى</string>
+    <string name="profile_other">آخر</string>
+
+    <!-- Smartwatch Screen -->
+    <string name="smartwatch_title">الساعة الذكية</string>
+    <string name="smartwatch_scan">البحث عن الأجهزة</string>
+    <string name="smartwatch_connect">اتصال</string>
+    <string name="smartwatch_disconnect">قطع الاتصال</string>
+    <string name="smartwatch_connected">متصل</string>
+    <string name="smartwatch_disconnected">غير متصل</string>
+    <string name="smartwatch_scanning">جاري البحث…</string>
+    <string name="smartwatch_steps">الخطوات</string>
+    <string name="smartwatch_heart_rate">معدل ضربات القلب</string>
+    <string name="smartwatch_battery">البطارية</string>
+    <string name="smartwatch_sync">مزامنة الآن</string>
+    <string name="smartwatch_uuid_scanner">ماسح UUID</string>
+    <string name="smartwatch_configure">تكوين UUID</string>
+
+    <!-- Proximity/Kidney Support Mode -->
+    <string name="proximity_title">وضع دعم الكلى</string>
+    <string name="proximity_enable">تفعيل وضع الدعم</string>
+    <string name="proximity_disable">تعطيل وضع الدعم</string>
+    <string name="proximity_description">اكتشاف مستخدمي سلسبيل القريبين الذين قد يحتاجون إلى المساعدة</string>
+    <string name="proximity_nearby_users">المستخدمون القريبون</string>
+    <string name="proximity_no_users">لم يتم اكتشاف مستخدمين قريبين</string>
+    <string name="proximity_send_message">إرسال رسالة صحية</string>
+    <string name="proximity_privacy">خصوصيتك محمية بمعرفات مجهولة متغيرة</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_reminder_interval">فترة التذكير</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_units">الوحدات</string>
+    <string name="settings_data">البيانات والخصوصية</string>
+    <string name="settings_export_ledger">تصدير السجل</string>
+    <string name="settings_verify_ledger">التحقق من سلامة السجل</string>
+    <string name="settings_about">حول</string>
+
+    <!-- Theme Options -->
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="theme_system">افتراضي النظام</string>
+
+    <!-- Notifications -->
+    <string name="notif_hydration_title">حان وقت الترطيب! 💧</string>
+    <string name="notif_hydration_message">لا تنسى شرب الماء</string>
+    <string name="notif_activity_title">نشاط رائع! 🚶</string>
+    <string name="notif_activity_message">لقد مشيت %1$s كم - حان وقت الترطيب!</string>
+    <string name="notif_proximity_title">مستخدم سلسبيل قريب</string>
+    <string name="notif_proximity_message">مستخدم آخر قريب. هل تحتاج إلى مساعدة؟</string>
+    <string name="notif_smartwatch_title">تمت مزامنة الساعة</string>
+    <string name="notif_smartwatch_message">تمت مزامنة البيانات بنجاح</string>
+
+    <!-- Errors -->
+    <string name="error_generic">حدث خطأ ما</string>
+    <string name="error_bluetooth_disabled">البلوتوث معطل</string>
+    <string name="error_location_disabled">الموقع معطل</string>
+    <string name="error_no_device">لم يتم العثور على جهاز</string>
+    <string name="error_connection_failed">فشل الاتصال</string>
+    <string name="error_save_failed">فشل الحفظ</string>
+
+    <!-- Success Messages -->
+    <string name="success_saved">تم الحفظ بنجاح</string>
+    <string name="success_connected">تم الاتصال بنجاح</string>
+    <string name="success_synced">تمت المزامنة بنجاح</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm">تأكيد</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="dialog_delete">حذف</string>
+    <string name="dialog_save">حفظ</string>
+
+    <!-- Empty States -->
+    <string name="empty_no_data">لا توجد بيانات متاحة</string>
+    <string name="empty_no_logs">لا توجد سجلات ترطيب بعد</string>
+    <string name="empty_start_tracking">ابدأ في تتبع الترطيب الخاص بك!</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_add_water">إضافة استهلاك الماء</string>
+    <string name="cd_profile_avatar">صورة الملف الشخصي</string>
+    <string name="cd_chart">مخطط الترطيب</string>
+    <string name="cd_back">رجوع</string>
+    <string name="cd_menu">القائمة</string>
+</resources>
